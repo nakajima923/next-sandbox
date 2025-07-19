@@ -7,7 +7,8 @@ export default function Home() {
       <h2>🚀 This is Home Page (個別ページ)</h2>
       <p>Hello, this content is provided by <code>page.tsx</code>.</p>
 
-      <Message />
+      <Message title="お知らせ" content="これは動的メッセージです。" />
+
     </div>
   );
 }
