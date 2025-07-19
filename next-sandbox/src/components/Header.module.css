@@ -1,0 +1,20 @@
+.header {
+    background-color: #255738;
+    padding: 5px 20px;
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between; /* 左右に分ける */
+    align-items: center;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 16px; /* 一覧表示と登録の間の隙間 */
+}
+
+.system-title {
+    font-size: 20px;
+}
