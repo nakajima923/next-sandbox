@@ -1,5 +1,5 @@
 .search-input {
-  /* width: 100%; */
+  width: 55%;
   min-width: 0;
   resize: none;
   overflow: hidden;
@@ -24,3 +24,6 @@
   border-color: #dbe0e6;
   box-shadow: none;
 }
+
+
+

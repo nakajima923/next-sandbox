@@ -20,9 +20,9 @@ export default function RootLayout({
         </header> */}
         <Header /> 
         <main style={{textAlign:"center"}}>{children}</main>
-        <footer style={{ marginTop: "20px", borderTop: "1px solid #ccc",textAlign:"center" }}>
+        {/* <footer style={{ marginTop: "20px", borderTop: "1px solid #ccc",textAlign:"center" }}>
           <p>© 2025 tatsuyanakajima.com</p>
-        </footer>
+        </footer> */}
       </body>
     </html>
   );
