@@ -1,0 +1,23 @@
+{
+    "name":"next-sandbox",
+    "dockerComposeFile":"../compose.yaml",
+    "service":"app",
+    "workspaceFolder": "/home/node/app",
+    "postStartCommand": "npm run dev",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "esbenp.prettier-vscode"
+            ],
+            "settings": {
+                "files.encoding": "utf8",
+                "files.eol": "\n",
+                "editor.defaultFormatter": "esbenp.prettier-vscode"
+            }
+        }
+    },
+    "forwardPorts": [3000]
+}
+
+
+
