@@ -1,9 +1,9 @@
 FROM node:24.4.1
 
+USER node
 WORKDIR /home/node/app
 
-COPY next-sandbox/package.json /home/node/app
-COPY next-sandbox/package-lock.json /home/node/app
+COPY --chown=node:node next-sandbox/ /home/node/app
 
 RUN npm install 
 
