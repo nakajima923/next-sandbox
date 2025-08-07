@@ -1,8 +1,8 @@
 services:
   app:
+    container_name: next-sandbox
     build: .
     ports:
       - "3000:3000"
     volumes:
-      - ./next-sandbox:/home/node/app
-      - /home/node/app/node_modules
+      - ./next-sandbox/src:/home/node/app/src
