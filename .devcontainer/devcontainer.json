@@ -4,6 +4,8 @@
     "service":"app",
     "workspaceFolder": "/home/node/app",
     "postStartCommand": "npm run dev",
+    "remoteUser": "node",
+    "updateRemoteUserUID": true,
     "customizations": {
         "vscode": {
             "extensions": [
