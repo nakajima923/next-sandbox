@@ -1,9 +1,10 @@
 FROM node:24.4.1 AS builder
 
-USER node
+# USER node
 WORKDIR /home/node/app
 
-COPY --chown=node:node next-sandbox/ /home/node/app
+# COPY --chown=node:node next-sandbox/ /home/node/app
+COPY next-sandbox/ /home/node/app/
 
 RUN npm install 
 
