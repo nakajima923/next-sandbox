@@ -3,7 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header"
 
 export const metadata = {
-  title: "Layout Sample",
+  title: "書籍管理システム",
   description: "Demo of layout.tsx and globals.css",
 };
 
